@@ -1,0 +1,26 @@
+@use "_global_styles" as global;  
+
+.title {
+    @include global.title;
+}
+
+.search__container {
+    margin: 2rem;
+    width: 100%;
+}
+    
+
+.search_input {
+    @include global.border;
+    font-size: global.$font-size;
+
+}
+    
+.button_group {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 1rem auto;
+    height: 4rem;
+}
+    

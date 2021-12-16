@@ -1,0 +1,73 @@
+@use "_global_styles" as global;  
+
+.card {
+  text-align: center;
+  margin: 1rem;
+  border-radius: 5%;
+}
+
+.card-img-top {
+  height: 50vh;
+}
+
+.modal__header {
+  font-size: 2rem;
+  justify-content: flex-start !important;
+}
+
+.modal__image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.box {
+  margin-top: 1.5rem;
+  border: 2px solid global.$black;
+
+  h3 {
+    padding: 0.8rem;
+    margin: 0;
+  }
+
+  h3.general_movie {
+    @include global.background(global.$blue, global.$white);
+  }
+
+  h3.people_header {
+    @include global.background(global.$red, global.$white);
+  }
+
+  h3.extra_movie_header {
+    @include global.background(global.$green, global.$white);
+  }
+
+  h3.achievements_header {
+    @include global.background(global.$purple, global.$white);
+  }
+
+  .more__details {
+    float: right;
+    background: none;
+    border: none;
+    color: global.$white;
+  }
+
+  .more__details:active {
+    color: global.$black;
+  }
+
+  .modal__dropdown {
+    margin: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+
+  .readMore {
+    text-decoration: none;
+    color: global.$blue;
+  }
+
+  .ratings {
+    list-style-type: none;
+  }
+}

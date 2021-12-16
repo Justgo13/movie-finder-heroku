@@ -1,0 +1,40 @@
+@use "_global_styles" as global;
+
+.toggle__button {
+    width: 20%;
+    font-size: global.$font-size;
+    border-radius: 20%;
+  }
+
+.search {
+    @include global.border;
+    font-size: global.$font-size;
+    background-color: global.$green;
+    text-decoration: none
+}
+
+.movie-result {
+  border: none;
+  background-color: global.$white;
+}
+
+.modal__close {
+  margin: 0 !important;
+  margin-right: 1rem !important;
+}
+
+.modal__close:hover {
+  background-color: global.$red;
+}
+
+.modal__close:focus {
+  box-shadow: none;
+}
+
+.modal__close:active {
+  background-color: global.$green;
+}
+
+.back_to_search {
+  font-size: 3rem;
+}

@@ -1,0 +1,28 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.search__container {
+  margin: 2rem;
+  width: 100%;
+}
+
+.search_input {
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: 1.5rem;
+}
+
+.button_group {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 1rem auto;
+  height: 4rem;
+}
+
+/*# sourceMappingURL=SearchStyles.css.map */
