@@ -28,7 +28,7 @@ const CardItem = ({title, image, year, imdbID}) => {
     const fetchMovieData = async () => {
       try {
         const responseData = await sendRequest(
-          `/movie-search/results/movie/${imdbID}/`
+          `http://localhost:5000/movie-search/results/movie/${imdbID}`
         );
         setMovieData(responseData["movie"]);
       } catch (err) {}
