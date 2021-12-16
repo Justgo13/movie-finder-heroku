@@ -15,7 +15,7 @@ const SearchResult = () => {
     const fetchMovies = async () => {
       try {
         const responseData = await sendRequest(
-          `http://localhost:5000/movie-search/results/${movieName}`
+          `/movie-search/results/${movieName}`
         );
         setMovies(responseData["movies"]);
 
