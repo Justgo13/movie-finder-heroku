@@ -1,9 +1,0 @@
-{
-  "short_name": "Movie Finder React App",
-  "name": "Movie Finder application with OMDB",
-  "icons": [],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
