@@ -1,5 +1,7 @@
 # Movie finder
 
+App is deployed using Heroku [Movie Finder](https://movie-finder-backend.herokuapp.com/movie-search)
+
 A movie finder application that uses the OMDB API.
 
 To get your own OMDB API key visit 
