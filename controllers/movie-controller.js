@@ -2,7 +2,7 @@ const request = require("request");
 const uuid = require("uuid");
 
 const OMDB_API = "http://www.omdbapi.com/";
-const API_KEY = "&apikey=37e01f39"; // + process.env.API_KEY;
+const API_KEY = "&apikey=" + process.env.API_KEY;
 
 const getMoviesByTitle = async (req, res, next) => {
     const movieName = req.params.movieName;
